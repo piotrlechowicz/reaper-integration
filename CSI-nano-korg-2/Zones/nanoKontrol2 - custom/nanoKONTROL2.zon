@@ -1,0 +1,37 @@
+Zone "Home"
+ 	IncludedZones
+    		"Buttons|"
+    		"Channel|1-6"
+  	IncludedZonesEnd
+ZoneEnd
+
+Zone "Buttons|"
+  TrackLeft 	TrackBank "-6"
+  TrackRight 	TrackBank "6"
+  Rewind 	Rewind
+  FastForward	FastForward
+  Stop 		Stop
+  Play 		Play
+  Record 	Record
+
+  Shift 	Shift
+  Option 	Option
+  Control 	Control
+  Alt 		Alt
+
+  Marker 	Reaper "40157"
+  MarkerLeft 	Reaper "40172"
+  MarkerRight 	Reaper "40173"
+
+  Cycle 	CycleTimeline
+ZoneEnd
+
+
+Zone "Channel|"
+  	TrackNavigator
+  	Rotary| 	TrackPan
+  	Fader|  	TrackVolume
+ 	RecordArm| 	TrackRecordArm
+  	Solo|  		TrackSolo
+  	Mute| 		TrackMute
+ZoneEnd

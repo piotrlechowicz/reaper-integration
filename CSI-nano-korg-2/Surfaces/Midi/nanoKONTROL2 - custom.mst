@@ -1,0 +1,191 @@
+Widget TrackLeft
+  Press 90 2e 7f
+WidgetEnd
+
+Widget TrackRight
+  Press 90 2f 7f
+WidgetEnd
+
+Widget Cycle
+  Press 90 56 7f
+  FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+
+Widget Marker
+  Press 90 59 7f
+WidgetEnd
+
+Widget MarkerLeft
+  Press 90 58 7f
+WidgetEnd
+
+Widget MarkerRight
+  Press 90 5a 7f
+WidgetEnd
+
+Widget Rewind
+  Press 90 5b 7f
+  FB_TwoState 90 5b 7f 90 5b 00
+WidgetEnd
+
+Widget FastForward
+  Press 90 5c 7f
+  FB_TwoState 90 5c 7f 90 5c 00
+WidgetEnd
+
+Widget Stop
+  Press 90 5d 7f
+  FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+
+Widget Play
+  Press 90 5e 7f
+  FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+
+Widget Record
+  Press 90 5f 7f
+  FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+Widget Rotary1
+  Encoder b0 10 7f
+WidgetEnd
+
+Widget Rotary2
+  Encoder b0 11 7f
+WidgetEnd
+
+Widget Rotary3
+  Encoder b0 12 7f
+WidgetEnd
+
+Widget Rotary4
+  Encoder b0 13 7f
+WidgetEnd
+
+Widget Rotary5
+  Encoder b0 14 7f
+WidgetEnd
+
+Widget Rotary6
+  Encoder b0 15 7f
+WidgetEnd
+
+Widget Fader1
+  Fader14Bit e0 7f 7f
+WidgetEnd
+
+Widget Fader2
+  Fader14Bit e1 7f 7f
+WidgetEnd
+
+Widget Fader3
+  Fader14Bit e2 7f 7f
+WidgetEnd
+
+Widget Fader4
+  Fader14Bit e3 7f 7f
+WidgetEnd
+
+Widget Fader5
+  Fader14Bit e4 7f 7f
+WidgetEnd
+
+Widget Fader6
+  Fader14Bit e5 7f 7f
+WidgetEnd
+
+Widget Solo1
+  Press 90 08 7f
+  FB_TwoState 90 08 7f 90 08 00
+WidgetEnd
+
+Widget Solo2
+  Press 90 09 7f
+  FB_TwoState 90 09 7f 90 09 00
+WidgetEnd
+
+Widget Solo3
+  Press 90 0a 7f
+  FB_TwoState 90 0a 7f 90 0a 00
+WidgetEnd
+
+Widget Solo4
+  Press 90 0b 7f
+  FB_TwoState 90 0b 7f 90 0b 00
+WidgetEnd
+
+Widget Solo5
+  Press 90 0c 7f
+  FB_TwoState 90 0c 7f 90 0c 00
+WidgetEnd
+
+Widget Solo6
+  Press 90 0d 7f
+  FB_TwoState 90 0d 7f 90 0d 00
+WidgetEnd
+
+
+Widget Mute1
+  Press 90 10 7f
+  FB_TwoState 90 10 7f 90 10 00
+WidgetEnd
+
+Widget Mute2
+  Press 90 11 7f
+  FB_TwoState 90 11 7f 90 11 00
+WidgetEnd
+
+Widget Mute3
+  Press 90 12 7f
+  FB_TwoState 90 12 7f 90 12 00
+WidgetEnd
+
+Widget Mute4
+  Press 90 13 7f
+  FB_TwoState 90 13 7f 90 13 00
+WidgetEnd
+
+Widget Mute5
+  Press 90 14 7f
+  FB_TwoState 90 14 7f 90 14 00
+WidgetEnd
+
+Widget Mute6
+  Press 90 15 7f
+  FB_TwoState 90 15 7f 90 15 00
+WidgetEnd
+
+
+Widget RecordArm1
+  Press 90 00 7f
+  FB_TwoState 90 00 7f 90 00 00
+WidgetEnd
+
+Widget RecordArm2
+  Press 90 01 7f
+  FB_TwoState 90 01 7f 90 01 00
+WidgetEnd
+
+Widget RecordArm3
+  Press 90 02 7f
+  FB_TwoState 90 02 7f 90 02 00
+WidgetEnd
+
+Widget RecordArm4
+  Press 90 03 7f
+  FB_TwoState 90 03 7f 90 03 00
+WidgetEnd
+
+Widget RecordArm5
+  Press 90 04 7f
+  FB_TwoState 90 04 7f 90 04 00
+WidgetEnd
+
+Widget RecordArm6
+  Press 90 05 7f
+  FB_TwoState 90 05 7f 90 05 00
+WidgetEnd
+
+

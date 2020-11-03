@@ -1,0 +1,10 @@
+Zone "VST: ReaComp (Cockos)" "ReaComp"
+	SelectedTrackNavigator
+	Threshold 	FXParam "0" 	"Thresh"
+	Attack 		FXParam "2" 	"Attack"
+	Release 	FXParam "3" 	"Release"
+	Ratio 		FXParam "1" 	"Ratio"
+	Compressor 	FXParam "19"	"Bypass"
+	Parallel 	FXParam "20" 	"Wet"
+	CompressorMeter	FXParam "GainReductionDB"
+ZoneEnd
